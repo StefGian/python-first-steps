@@ -1,0 +1,10 @@
+print("What's your name?")
+name=input()
+print("your name is: ", name)
+print("What is your age" , name)
+age=input()
+print("Your age is: ", age)
+age= int(age)
+print("next year you'll be: ", age +1)
+True_or_False =  age > 12
+print(name, "is older than 12 is", True_or_False)
